@@ -1,9 +1,9 @@
 import WorkDetails from "./WorkLayout";
 const CompanyDetails = [
   {
-    companyName: "Finance Based Company ",
+    companyName: "Service Based Company",
     role: "C++ Developer - Low Latency Systems",
-    from: "2025",
+    from: "July 2025",
     to: "Present",
     description: [
       "Working on high-performance, low-latency trading systems.",
