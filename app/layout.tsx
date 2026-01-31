@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 import { Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
-
+import { Analytics } from "@vercel/analytics/next"
 const satoshi = localFont({
   src: [
     {
@@ -47,6 +47,7 @@ export default function RootLayout({
     >
       <body className="font-sans antialiased">
         <Providers>{children}</Providers>
+        <Analytics />
       </body>
     </html>
   );
