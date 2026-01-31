@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Providers } from "./providers";
 
 const satoshi = localFont({
   src: [
@@ -39,9 +40,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${satoshi.variable} ${geistMono.variable}`}>
+    <html
+      lang="en"
+      className={`${satoshi.variable} ${geistMono.variable}`}
+      suppressHydrationWarning
+    >
       <body className="font-sans antialiased">
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
