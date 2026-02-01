@@ -23,7 +23,7 @@ const AboutMe = () => {
         </p>
 
         <p>
-          I build SaaS products to understand{" "}
+          Building SaaS products to understand{" "}
           <em className="font-medium text-black dark:text-white">
             how systems work, from backend architecture to user interactions
           </em>
