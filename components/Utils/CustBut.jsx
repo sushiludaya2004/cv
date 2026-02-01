@@ -17,7 +17,7 @@ const CustBut = ({
         text-sm font-medium tracking-wide
 
         transition-all duration-200 ease-out
-        focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500
+        focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-zinc-500
         active:scale-[0.97]
 
         ${outline ? "bg-transparent" : bg}
