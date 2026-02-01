@@ -17,17 +17,17 @@ interface SocialLink {
 export const socialLinks: SocialLink[] = [
   {
     name: "Geeks for Geeks",
-    href: "https://www.geeksforgeeks.org/#",
+    href: "https://www.geeksforgeeks.org/profile/sushil1074",
     icon: GeeksForGeeksIcon,
   },
   {
     name: "LeetCode",
-    href: "https://leetcode.com/#",
+    href: "https://leetcode.com/sushil_udaya/",
     icon: LeetCodeIcon,
   },
   {
     name: "GitHub",
-    href: "https://github.com/#",
+    href: "https://github.com/sushiludaya2004",
     icon: GitHubIcon,
   },
 
